@@ -2,3 +2,5 @@
 
 In the code, we achieve the data mining first, and further predict the AQI of different city based on CNN+LSTM.
 ![Sydney](image/Sydney.png)
+
+![Sydney2](image/Pair_analyze.png)
