@@ -40,19 +40,32 @@ align="center">
 <img src="./image/Sydney.png" width="600" height= "200"alt="Pre-Sydney">
 </div>
 
-![Sydney2](image/Pair_analyze.png)
+<div
+align="center">
+<img src="image/Pair_analyze.png" width="600">
+</div>
 This is the pair plot, is shown the relativity about each feature. The diagonal represents the distribution of each feature. 
 
 ### London
 
-![London](image/London.png)
+<div
+align="center">
+<img src="./image/London.png" width="600">
+</div>
 This Figure shows the prediction result on London datasets, the predicted curve trend was observed to be consistent with the original data trend. But I forgot to sort the time, so a horizontal line spans the entire image😅.
 
 ### NewYork
 
-NewYork-Prediction ![NewYork](image/New_York.png)
+<div
+align="center">
+<img src="image/New_York.png" width="600">
+</div>
 
 ### Brasilia
 The prediction ability of the model on Brasilia data set is introduced in the figure.
-![Brasilia](./image/Brasilia.png)
+
+<div
+align="center">
+<img src="image/Brasilia.png" width="600">
+</div>
 
