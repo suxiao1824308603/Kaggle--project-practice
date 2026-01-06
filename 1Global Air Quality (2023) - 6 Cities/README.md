@@ -27,8 +27,9 @@ In the code, we achieve the data mining first, and further predict the AQI of di
 
 <div
 align="center">
-<img src="./image/London_Metrics.png" width="400"alt="Train">
+<img src="./image/London_Metrics.png" width="600"alt="Train">
 </div>
+In the Figure, the minimum of MAE about Train achieves 1.5, MSE achieves 15, the ACC of train achieves 0.99. For validation, the ACC more than 0.97 and $R^{2}$ achieves 0.75.
 
 ## The predictions are as follows (Sydney, London, NewYork, Brasilia)
 
@@ -36,11 +37,22 @@ align="center">
 
 <div
 align="center">
-<img src="./image/Sydney.png" width="400" height= "130"alt="Pre-Sydney">
+<img src="./image/Sydney.png" width="600" height= "200"alt="Pre-Sydney">
 </div>
 
 ![Sydney2](image/Pair_analyze.png)
+This is the pair plot, is shown the relativity about each feature. The diagonal represents the distribution of each feature. 
 
-London-Prediction ![London](image/London.png)
+### London
+
+![London](image/London.png)
+This Figure shows the prediction result on London datasets, the predicted curve trend was observed to be consistent with the original data trend. But I forgot to sort the time, so a horizontal line spans the entire image😅.
+
+### NewYork
 
 NewYork-Prediction ![NewYork](image/New_York.png)
+
+### Brasilia
+The prediction ability of the model on Brasilia data set is introduced in the figure.
+![Brasilia](./image/Brasilia.png)
+
