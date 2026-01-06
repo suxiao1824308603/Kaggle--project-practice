@@ -3,6 +3,7 @@
 In the code, we achieve the data mining first, and further predict the AQI of different city based on MultiscaleCNN + ResidualLSTM.
 
 ## MultiScaleCNN Module is shown as follow,
+
 ```python
   class MultiScaleConvBlock(nn.Module):
     def __init__(self, in_channels, out_channels, feature_dim):
@@ -21,13 +22,21 @@ In the code, we achieve the data mining first, and further predict the AQI of di
       out = torch.cat([x1, x2, x3, x4], dim=1)
       return self.relu(out)
 ```
+
+## The model training results are shown below
+
+<div
+align="center">
+<img src="./image/London_Metrics.png" width="400"alt="Train">
+</div>
+
 ## The predictions are as follows (Sydney, London, NewYork, Brasilia)
+
 ### Sydney
 
-![Pre](./image/Sydney.png){:height="50%" width="70%"}
-
-<div align="center">
-  <img src"./image/Sydney.png" width="300">
+<div
+align="center">
+<img src="./image/Sydney.png" width="400" height= "130"alt="Pre-Sydney">
 </div>
 
 ![Sydney2](image/Pair_analyze.png)
